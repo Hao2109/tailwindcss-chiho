@@ -10,10 +10,10 @@ chiho = ch
   @apply absolute top-10 z-50 w-full bg-white text-center animate-slideDown;
 }
 .ch-top-menu-item {
-  @apply cursor-pointer hover:text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-light-coffee after:lg:h-0.5 after:lg:w-0 hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300;
+  @apply cursor-pointer hover:text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-coffee-200 after:lg:h-0.5 after:lg:w-0 hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300;
 }
 .ch-top-menu-icon-active {
-  @apply text-gray-800;
+  @apply text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-coffee-200 after:lg:h-0.5 after:lg:w-full;
 }
 .ch-icon {
   @apply w-5 h-5 inline-block;
@@ -21,4 +21,13 @@ chiho = ch
 }
 .ch-badge-circle {
   @apply text-xs text-center rounded-full px-1.5;
+}
+.ch-subheadline {
+  @apply flex justify-center items-center mb-24;
+}
+.ch-subheadline-deco-line {
+  @apply w-8 h-px bg-gray-600;
+}
+.ch-subheadline-label {
+  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[12px] text-center;
 }

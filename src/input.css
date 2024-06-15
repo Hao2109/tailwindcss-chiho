@@ -29,5 +29,8 @@ chiho = ch
   @apply w-8 h-px bg-gray-600;
 }
 .ch-subheadline-label {
-  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[12px] text-center;
+  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-xs text-center;
+}
+.ch-button {
+  @apply text-center tracking-wider uppercase py-4 px-8 text-sm font-medium cursor-pointer  hover:bg-opacity-95;
 }
